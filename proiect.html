@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montreal</title>
+    <link rel="stylesheet" href="proiect.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="tips.html">Tips&Tricks</a></li>
+                <li class="has-submenu">
+                    <a href="botanical-garden.html">More ▾</a>
+                    <ul class="submenu">
+                        <li><a href="botanical-garden.html">Botanical Garden</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-inner">
+            <h2>Montreal</h2>
+            <p>Discover its attractions, food and culture</p>
+        </div>
+    </section>
+
+    <main>
+
+        <section id="intro">
+            <div class="intro-bubble">
+                <div class="back_bubble">
+                    <h2>Welcome to Montreal</h2>
+                    <p>
+                        Montreal is one of Canada’s most vibrant and culturally rich cities.
+                        It blends European charm with a modern North American atmosphere,
+                        offering history, art, food and exciting places to explore.
+                    </p>
+                    
+                    <div class="controls">
+                        <label for="sizeRange">Mărime text: </label>
+                        <input type="range" id="sizeRange" min="16" max="28" value="16" step="1">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="attractions">
+            <div id="attractionsContainer" class="attractions-grid">
+            </div>
+        </section>
+
+        <div id="loginSection">
+            <div class="login-bubble">
+                <h3>Autentificare</h3>
+                
+                <div class="form-row">
+                    <input type="text" id="usernameInput" placeholder="User">
+                    <input type="password" id="passwordInput" placeholder="Parola">
+                    <button id="loginBtn">Login</button>
+                </div>
+                
+                <p id="loginMsg"></p>
+            </div>
+        </div>
+
+        <section>
+            <div id="welcomeSection" class="hidden-section" style="display: none;">
+                <h3>Salut, <span id="displayUser"></span>!</h3>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form id="newsletterForm">
+                <input type="text" id="numeInput" placeholder="Nume">
+                <input type="text" id="prenumeInput" placeholder="Prenume">
+                <input type="text" id="emailInput" placeholder="Enter your email address">
+                <button type="submit">Join</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Montreal Website Project – Razvan Marin</p>
+    </footer>
+
+</body>
+</html>
