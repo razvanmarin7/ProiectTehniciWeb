@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Montreal Botanical Garden",
+        "image": "garden1.png",
+        "description": "One of the city’s most beautiful natural places, filled with themed gardens and peaceful walking paths.",
+        "link": "botanical-garden.html"
+    },
+    {
+        "title": "Chinatown Montreal",
+        "image": "china.png",
+        "description": "A lively neighborhood full of colors, markets, traditional food and cultural energy.",
+        "link": null
+    },
+    {
+        "title": "Notre Dame Basilica",
+        "image": "notredame.png",
+        "description": "A spectacular Gothic Revival church known for its stunning interior and historic importance.",
+        "link": null
+    },
+    {
+        "title": "Old Town",
+        "image": "oldtown.png",
+        "description": "A historic district with cobblestone streets, charming cafes, waterfront scenery and European architecture.",
+        "link": null
+    },
+    {
+        "title": "Place des Arts",
+        "image": "place.png",
+        "description": "Montreal’s major cultural center, hosting concerts, festivals, exhibitions and performances.",
+        "link": null
+    }
+]
